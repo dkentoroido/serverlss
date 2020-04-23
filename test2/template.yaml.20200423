@@ -23,18 +23,6 @@ Resources:
           Properties:
             Path: /hello
             Method: get
-  Metadata:
-    AWS::ServerlessRepo::Application:
-      Name: hello world
-      Description: hello world
-      Author: user1
-      SpdxLicenseId: Apache-2.0
-      LicenseUrl: LICENSE.txt
-      ReadmeUrl: README.md
-      Labels: ['tests']
-      HomePageUrl: https://github.com/dkentoroido/serverlss
-      SemanticVersion: 0.0.1
-      SourceCodeUrl: https://github.com/dkentoroido/serverlss
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
