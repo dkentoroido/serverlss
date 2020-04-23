@@ -8,7 +8,7 @@ phases:
       - pip install --upgrade pip
       - pip install pipenv --user
       - pipenv install awscli aws-sam-cli
-      - pipenv run sam package --template-file template/callSpeechToTextFFMPEG.yaml --s3-bucket https://xrdeploymentest-ffmpegsourcecode-ap-northeast-1-652549287100.s3-ap-northeast-1.amazonaws.com/template/callSpeechToTextFFMPEG.yaml --output-template-file packaged-template.yml
+      - pipenv run sam package --template-file test2/template.yaml --s3-bucket https://xrdeploymentest-ffmpegsourcecode-ap-northeast-1-652549287100.s3-ap-northeast-1.amazonaws.com/template/callSpeechToTextFFMPEG.yaml --output-template-file packaged-template.yml
 artifacts:
   files:
     - packaged-template.yml
