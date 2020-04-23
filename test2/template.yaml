@@ -41,8 +41,8 @@ Outputs:
 
 Metadata:
   AWS::ServerlessRepo::Application:
-    Name: hello world
-    Description: hello world
+    Name: HelloWorld
+    Description: "hello world"
     Author: user1
     SpdxLicenseId: Python-2.0
     LicenseUrl: 
