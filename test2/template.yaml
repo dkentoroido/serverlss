@@ -24,6 +24,21 @@ Resources:
             Path: /hello
             Method: get
 
+
+Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: HelloWorld
+    Description: "hello world"
+    Author: user1
+    SpdxLicenseId: Python-2.0
+    LicenseUrl:
+    ReadmeUrl:
+    Labels: ['tests']
+    HomePageUrl: https://github.com/dkentoroido/serverlss
+    SemanticVersion: 0.0.1
+    SourceCodeUrl: https://github.com/dkentoroido/serverlss
+
+
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
   # Find out more about other implicit resources you can reference within SAM
@@ -39,15 +54,3 @@ Outputs:
     Value: !GetAtt HelloWorldFunctionRole.Arn
 
 
-Metadata:
-  AWS::ServerlessRepo::Application:
-    Name: HelloWorld
-    Description: "hello world"
-    Author: user1
-    SpdxLicenseId: Python-2.0
-    LicenseUrl: 
-    ReadmeUrl: 
-    Labels: ['tests']
-    HomePageUrl: https://github.com/dkentoroido/serverlss
-    SemanticVersion: 0.0.1
-    SourceCodeUrl: https://github.com/dkentoroido/serverlss
