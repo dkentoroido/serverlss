@@ -44,9 +44,9 @@ Metadata:
     Name: hello world
     Description: hello world
     Author: user1
-    SpdxLicenseId: Apache-2.0
-    LicenseUrl: LICENSE.txt
-    ReadmeUrl: README.md
+    SpdxLicenseId: Python-2.0
+    LicenseUrl: https://spdx.org/licenses/Python-2.0.html
+    ReadmeUrl: https://github.com/dkentoroido/serverlss/blob/master/test2/README.md
     Labels: ['tests']
     HomePageUrl: https://github.com/dkentoroido/serverlss
     SemanticVersion: 0.0.1
