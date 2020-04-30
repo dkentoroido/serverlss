@@ -12,3 +12,16 @@ Resources:
           - python3.7
         LicenseInfo:
         RetentionPolicy: Retain
+
+Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: FfmpegLayerGit
+    Description: "hello world"
+    Author: kent
+    SpdxLicenseId: Python-2.0
+    LicenseUrl:
+    ReadmeUrl:
+    Labels: ['ffmpeg']
+    HomePageUrl: https://github.com/dkentoroido/serverlss
+    SemanticVersion: 0.0.1
+    SourceCodeUrl: https://github.com/dkentoroido/serverlss
